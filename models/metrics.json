@@ -1,0 +1,148 @@
+{
+  "dataset_rows": 17280,
+  "features": [
+    "pm25",
+    "pm10",
+    "no2",
+    "so2",
+    "co",
+    "o3",
+    "nh3",
+    "temperature",
+    "humidity",
+    "wind_speed",
+    "rainfall",
+    "pressure",
+    "hour",
+    "month"
+  ],
+  "regression": {
+    "model": "Random Forest Regressor (100 estimators, depth=16)",
+    "r2_score": 0.9991,
+    "mae": 0.27,
+    "rmse": 2.1
+  },
+  "classification": {
+    "model": "Random Forest Classifier (100 estimators, depth=16)",
+    "accuracy": 0.9977,
+    "classes": [
+      "Good",
+      "Moderate",
+      "Poor",
+      "Satisfactory",
+      "Severe",
+      "Very Poor"
+    ],
+    "confusion_matrix": [
+      [
+        1103,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        447,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        146,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        1620,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        132
+      ]
+    ],
+    "detailed_report": {
+      "Good": {
+        "precision": 1.0,
+        "recall": 0.9990942028985508,
+        "f1-score": 0.9995468962392388,
+        "support": 1104.0
+      },
+      "Moderate": {
+        "precision": 0.9889380530973452,
+        "recall": 1.0,
+        "f1-score": 0.9944382647385984,
+        "support": 447.0
+      },
+      "Poor": {
+        "precision": 0.9864864864864865,
+        "recall": 0.9931972789115646,
+        "f1-score": 0.9898305084745763,
+        "support": 147.0
+      },
+      "Satisfactory": {
+        "precision": 0.999383096853794,
+        "recall": 0.9975369458128078,
+        "f1-score": 0.9984591679506933,
+        "support": 1624.0
+      },
+      "Very Poor": {
+        "precision": 1.0,
+        "recall": 0.9850746268656716,
+        "f1-score": 0.9924812030075187,
+        "support": 134.0
+      },
+      "accuracy": 0.9976851851851852,
+      "macro avg": {
+        "precision": 0.9949615272875251,
+        "recall": 0.9949806108977188,
+        "f1-score": 0.994951208082125,
+        "support": 3456.0
+      },
+      "weighted avg": {
+        "precision": 0.9977045638132489,
+        "recall": 0.9976851851851852,
+        "f1-score": 0.9976877698168315,
+        "support": 3456.0
+      }
+    }
+  },
+  "feature_importances": {
+    "pm25": 0.857,
+    "pm10": 0.0939,
+    "o3": 0.0468,
+    "co": 0.0022,
+    "no2": 0.0,
+    "so2": 0.0,
+    "nh3": 0.0,
+    "temperature": 0.0,
+    "humidity": 0.0,
+    "wind_speed": 0.0,
+    "rainfall": 0.0,
+    "pressure": 0.0,
+    "hour": 0.0,
+    "month": 0.0
+  }
+}
