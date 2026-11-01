@@ -150,8 +150,8 @@ gunicorn>=21.0.0
 
 ### 1. Clone or Open Project
 ```bash
-git clone https://github.com/<YOUR-USERNAME>/<YOUR-REPO-NAME>.git
-cd "AQI Project"
+git clone https://github.com/arpitdaksh/AeroGuard-AQI.git
+cd AeroGuard-AQI
 ```
 
 ### 2. Install Dependencies
