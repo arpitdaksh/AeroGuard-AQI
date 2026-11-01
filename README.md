@@ -9,6 +9,8 @@
 
 An end-to-end environmental Machine Learning, analytics, and interactive web dashboard system. It provides real-time AQI tracking, standard Central Pollution Control Board (CPCB India) and US EPA breakpoint interpolation, dual Random Forest predictive models, live global city lookup via Open-Meteo, and personalized AI health & fitness recommendations.
 
+> **Project description:** AeroGuard AI is a Flask-based air quality intelligence platform that combines CPCB and US EPA AQI calculations, machine learning forecasts, live Open-Meteo data, interactive analytics, and personalized health guidance in one dashboard.
+
 ---
 
 ## 🌐 Live Demo & Deployment
