@@ -18,7 +18,9 @@ An end-to-end environmental Machine Learning, analytics, and interactive web das
 | Platform | Deployment Status | Link |
 |---|---|---|
 | **Render Cloud (Live Web App)** | ![Status](https://img.shields.io/badge/Status-Live-emerald) | [https://aeroguard-aqi-app.onrender.com](https://aeroguard-aqi-app.onrender.com) |
-| **Local Dashboard** | ![Local](https://img.shields.io/badge/Local-127.0.0.1%3A5000-blue) | [http://127.0.0.1:5000](http://127.0.0.1:5000) |
+| **Local Dashboard** | ![Local](https://img.shields.io/badge/Local-only%20while%20running-blue) | `http://127.0.0.1:5000` |
+
+> The local address works only on your computer after starting the app with `python app.py`. For a public demo, use the Render link above.
 
 > **Deploy to Render in 1-Click:**
 > [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
